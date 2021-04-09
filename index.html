@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+      * {
+        font-family: Candara, sans-serif;
+        outline: none;
+      }
+  
+      body {
+        padding: 10px 10px;
+        width: 90%;
+        color: rgb(196, 75, 95);
+        font-size: 24px;
+        background: rgb(255, 242, 244);
+      }
+  
+      p {
+        padding-left: 40px;
+        font-weight: 700;
+      }
+  
+      li {
+        padding-left: 80px;
+        font-style: italic;
+      }
+
+      .container .goal-setting {
+        color: rgb(0, 0, 0);
+        padding-bottom: 20px;
+        border: 2px solid black;
+        background: rgb(231, 231, 231);
+      }
+
+      .diagram {
+        padding: 20px;
+        padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .diagram img {
+        width: 30%;
+        transition: 1s;
+      }
+
+      .diagram img:hover {
+        border: 5px solid red;
+      }
+
+      .outline {
+        border: 5px solid red;
+        font-size: 2em;
+      }
+
+    </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="goal-setting">
+      <p> Using the UX principles we went over, you are going to build a shop for a small flower store. </p>
+          <li>Define your prime objective.</li>
+          <li>Make user stories for at least 3 users.</li>
+          <li>Create a full sitemap based on your user stories.</li>
+          <li>Create a low fidelity wireframe that includes all of the necessary elements according to the sitemap.</li>
+    </div>
+
+    <div class="main-content">      
+      <p>
+        Prime Objective
+      </p>
+        <li>Create a tool for a small flower shop to show off new seasonals, standard offerings, allow users to place orders, and check basic store details.</li>
+      
+      <p>User Stories</p>
+        <li>Customer: Viewing homepage, select products, place orders</li>
+        <li>Store Employee: Viewing permissions + view access to order calendar, requests to drop/take orders</li>
+        <li>Manager: Previously mentioned viewing permissions + edit/approval access to order calendar and account management</li>
+
+    </div>
+
+      <div class="diagram">
+        <p>See below for a website outline (click to pop up .pdf):</p>
+        <div class="diagram-wrap">
+          <a href="../images/fake-flower-shop.png">
+            <img src="../images/fake-flower-shop.png" alt="flower shop diagram">
+          </a>
+        </div>
+      </div>
+
+      <div class="outline">
+        <p>Low quality wireframe is included in a folder with the repo.</p>
+        </div>
+
+
+  </div>
+
+</body>
+</html>
